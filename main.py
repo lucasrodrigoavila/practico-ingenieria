@@ -6,7 +6,7 @@ fer = Cliente(77322232,5000,"fernando","diaz",23399899,"Juan larrea 1859",24)
 pedro = Cliente(87924232,15000,"pedro","gonzalez",17399899,"velez sarfiels 859",54)
 
 listaclientes=[fer,pedro]
-
+listacliente.proximocliente()
 
 fer.consultar()
 fer.datos_cliente()
