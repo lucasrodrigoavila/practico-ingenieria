@@ -16,7 +16,7 @@ class Cliente(Personas):
 	def sacardinero(f):
 		def nuevafuncion(self,extraer):
 			print("iniciando extracion")
-			if saldo < self.extracion:
+			if self.saldo > self.saldo:
 				print("no se puede realizar la extracion")
 			else:
 				print("saldo disponible para una extracion")
@@ -25,13 +25,13 @@ class Cliente(Personas):
 		return nuevafuncion
 			
 	@ sacardinero
-	def extraer(self,extracion):
-		self.extraer = saldo - extraer
-		print("su saldo actual es",self.extraer)
+	def extraer(self,extraer):
+		self.saldo = self.saldo - extraer
+		print("su saldo actual es",self.saldo)
 
 
 	def datos_cliente(self):
-		print("los datos del clientes son:",self.nombre, self.apellido,self.dni, self.direccion, self.edad,self.num_de_cuenta,self.saldo)
+		print("los datos del clientes son:",self.nombre, self.apellido,self.dni, self.direccion, self.edad,self.numerodecuenta,self.saldo)
 
 
 

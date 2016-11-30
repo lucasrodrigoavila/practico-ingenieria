@@ -14,8 +14,7 @@ class Cajero():
 			raise ValueError("La cola está vacía")
 
 		
-	def __repr__(self):
-		 return (self.numerodecuenta,self.saldo,self.nombre,self.apellido,self.dni,self.direccion,self.edad)
+	
 	
 
 fer = Cliente(77322232,5000,"fernando","diaz",23399899,"Juan larrea 1859",24)
